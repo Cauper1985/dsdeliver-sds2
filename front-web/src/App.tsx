@@ -1,14 +1,11 @@
+import { Route } from 'react-router-dom';
 import './App.css';
 import Hello from './Hello';
-import Home from './Home';
-import Navbar from './Navbar';
+import Routes from './Routes';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-    </>
+       <Routes />
   );
 }
 
